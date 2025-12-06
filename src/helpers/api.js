@@ -3,7 +3,7 @@ import { useAuthStore } from '../stores/auth'   // Importa el store de autentica
 import router from '../router'                  // Importa el router para poder redirigir
 
 // Dirección base de la API
-const API_BASE = 'http://localhost:8000/api'
+const API_BASE = 'https://backend-aplicacion.infinityfreeapp.com/api'
 
 // Función auxiliar para hacer peticiones a la API
 export async function apiFetch(endpoint, options = {}) {
