@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 
-// Dirección base de la API
-const API_BASE = 'https://backend-aplicacion.infinityfreeapp.com/api'
+// Dirección base de la API — BACKEND EN RENDER
+const API_BASE = 'https://backend1-aplicaci-n.onrender.com/api'
 
 // Se define el store de autenticación con Pinia
 export const useAuthStore = defineStore('auth', {

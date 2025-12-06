@@ -2,8 +2,8 @@
 import { useAuthStore } from '../stores/auth'   // Importa el store de autenticación
 import router from '../router'                  // Importa el router para poder redirigir
 
-// Dirección base de la API
-const API_BASE = 'https://backend-aplicacion.infinityfreeapp.com/api'
+// Dirección base de la API — BACKEND EN RENDER
+const API_BASE = 'https://backend1-aplicaci-n.onrender.com/api'
 
 // Función auxiliar para hacer peticiones a la API
 export async function apiFetch(endpoint, options = {}) {
